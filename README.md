@@ -17,7 +17,7 @@ MILESTONES ::
 
 No claims to alsa67 participating in PTP clock master delegation are envisaged at this stage - although that may come later. alsa67 shall be a clock slave for the time being.
 
-
+Noteworthy, others have spoken of developing jackd and pulse implementations of AES67 but the maintainer's opinion is that these concepts are inherently misguided in that ALSA is 'closer to the kernel' than either of these. ALSA acts as the basis for both jackd and pulse and tighter latencies (and therefore better applicability to a professional live environment) *should* be possible by a native ALSA implementation.
 
 
 
